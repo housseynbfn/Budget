@@ -1,0 +1,17 @@
+BUDGET FRANCO-SUISSE — installation
+
+1. Crée un compte gratuit sur github.com.
+2. Nouveau dépôt (bouton « New ») nommé par ex. « budget », visibilité Public.
+   Le code est public, mais AUCUNE donnée personnelle n'y est : tes données restent sur ton téléphone.
+3. Dans le dépôt : « uploading an existing file », glisse TOUT le contenu de ce dossier
+   (index.html, manifest.webmanifest, sw.js, le dossier icons), puis « Commit changes ».
+4. Settings → Pages → Source : « Deploy from a branch » → branche « main », dossier « / (root) » → Save.
+   Au bout d'une à deux minutes, ton appli est en ligne : https://TON-PSEUDO.github.io/budget/
+5. Sur l'iPhone, ouvre cette adresse dans Safari → Partager → « Sur l'écran d'accueil ».
+   (Android : Chrome → menu ⋮ → « Installer l'application ».)
+6. Ouvre l'appli DEPUIS L'ICÔNE, puis « Importer mes données » et choisis mes-donnees-budget.json
+   (enregistre-le d'abord dans l'app Fichiers). Sur iPhone, l'appli installée a sa propre mémoire,
+   séparée de Safari : l'import doit se faire depuis l'icône.
+
+Mise à jour : remplace index.html (et sw.js si fourni) dans le dépôt. Tes données ne bougent pas.
+Sauvegarde : Réglages → « Sauvegarder mes données » de temps en temps.
